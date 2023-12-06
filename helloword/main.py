@@ -3,11 +3,11 @@ from tkinter import messagebox
 def register():
     username=entry_username.get()
     username=entry_password.get()
-    if not username or not password:
+    if not username or not entry_password:
         messagebox.showerror("error","please fill in all fields.")
     else:
             messagebox.showinfo("success","registration successful")
-window=tk.Tk()pygame.image.save(Surface, filename)
+window=tk.Tk()
 window.title("registration form")
 label_username=tk.Label(window,text="username:") 
 label_username.grid(row=0,column=0,padx=10,pady=5)
